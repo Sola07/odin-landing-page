@@ -71,3 +71,33 @@ h1 {
     padding: 0;
 }
 
+img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8%;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1f2937;
+}
+.core {
+    padding:15px;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    font-size: 14px;
+    color: #1f2937;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 125px;
+}
